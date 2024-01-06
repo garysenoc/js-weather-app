@@ -255,7 +255,7 @@
       async function getData(countryName) {
         try {
           const response = await fetch(
-            `http://api.weatherapi.com/v1/current.json?key=3b5b2202f0f54755a6b45625240601&q=${countryName}&aqi=no`,
+            `https://api.weatherapi.com/v1/current.json?key=3b5b2202f0f54755a6b45625240601&q=${countryName}&aqi=no`,
           );
 
           if (!response.ok) {
